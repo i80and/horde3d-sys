@@ -1,7 +1,13 @@
 [package]
-name = "horde3d-sys"
-version = "0.1.0"
 authors = ["Andrew Aldridge <i80and@foxquill.com>"]
+categories = [ "external-ffi-bindings", "rendering::engine" ]
+description = "FFI bindings for Horde3D v1.0\n\nHorde3D is automatically built and linked statically."
+homepage = "https://github.com/i80and/horde3d-sys"
+license = "EPL-1.0"
+name = "horde3d-sys"
+readme = "README.md"
+repository = "https://github.com/i80and/horde3d-sys.git"
+version = "0.1.0"
 
 [build-dependencies]
 cc = "1.0"
