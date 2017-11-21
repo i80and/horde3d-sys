@@ -1,0 +1,7 @@
+[package]
+name = "horde3d-sys"
+version = "0.1.0"
+authors = ["Andrew Aldridge <i80and@foxquill.com>"]
+
+[build-dependencies]
+cc = "1.0"
