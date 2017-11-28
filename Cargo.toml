@@ -7,7 +7,7 @@ license = "EPL-1.0"
 name = "horde3d-sys"
 readme = "README.md"
 repository = "https://github.com/i80and/horde3d-sys.git"
-version = "0.1.0"
+version = "0.1.1"
 
 [build-dependencies]
 cc = "1.0"

@@ -24,7 +24,7 @@ fn main() {
     let context = glutin::ContextBuilder::new()
         .with_vsync(true)
         .with_gl(glutin::GlRequest::Latest)
-        .with_gl_profile(glutin::GlProfile::Compatibility);
+        .with_gl_profile(glutin::GlProfile::Core);
     let gl_window = glutin::GlWindow::new(window, context, &events_loop).unwrap();
 
     unsafe {
